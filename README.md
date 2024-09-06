@@ -1,1 +1,4 @@
 # face_recognition_network
+In this repository, there are two files. The first one provides an example of creating and training a convolutional model for face recognition under the condition of limited resources for training. The model does not use any pre-trained prototype and employs the triplet loss technology. The model was trained on grayscale images under the assumption that this would result in better face recognition performance in the specific task with fewer resources. On a small dataset of 40 individuals with 10 face photographs each, the model achieved a recognition accuracy of 97.5 percent on the test set of photographs. The model is still under development and will soon transition to a larger dataset and attempt to mine triplets with the goal of improving the generalization ability of the model.
+
+Additionally, there is a second file that serves as an API for connecting such models to various tasks.
